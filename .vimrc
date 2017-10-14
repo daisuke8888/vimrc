@@ -1,5 +1,5 @@
 set encoding=utf-8  "ファイル読み込み時の文字コードの設定
-set fileencodings=iso-2022-jp,iso-2022-jp-2,utf-8,euc-jp,sjis   "読み込み時の文字コードの自動判別。左側が優先される
+set fileencodings=utf-8,iso-2022-jp,iso-2022-jp-2,euc-jp,sjis   "読み込み時の文字コードの自動判別。左側が優先される
 scriptencoding utf-8    "Vim scriptないでマルチバイト文字を使う場合の設定
 set fileformats=unix,dos,mac    "改行コードの自動判別。左側が優先される
 set ambiwidth=double    "□や○文字が崩れる問題を解決
